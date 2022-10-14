@@ -5,7 +5,8 @@
 // @namespace    https://github.com/DAOBuidler/contractscan
 // @homepage     https://github.com/DAOBuidler/contractscan
 // @author       Diven@BuidlerDAO Exqlnet@BuidlerDAO
-// @description  自动展开文档	一个很酷的合约学习工具，可以帮助合约学习者下载
+// @description  a cool tool help read contract in any main scan
+// @description:zh-cn 一个很酷的合约学习工具，可以帮助合约学习者下载
 // @match        https://bscscan.com/address/*
 // @match        https://etherscan.io/address/*
 // @match        https://polygonscan.com/address/*
