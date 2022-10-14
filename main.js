@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Contract Scan
 // @name:zh-cn   合约扫描器
-// @version      1.0.1
+// @version      1.0.2
 // @namespace    https://github.com/DAOBuidler/contractscan
 // @homepage     https://github.com/DAOBuidler/contractscan
 // @author       Diven@BuidlerDAO Exqlnet@BuidlerDAO
@@ -10,6 +10,9 @@
 // @match        https://bscscan.com/address/*
 // @match        https://etherscan.io/address/*
 // @match        https://polygonscan.com/address/*
+// @match        https://*.bscscan.com/address/*
+// @match        https://*.etherscan.io/address/*
+// @match        https://*.polygonscan.com/address/*
 // @grant        none
 // @license      MPL-2.0
 // ==/UserScript==
