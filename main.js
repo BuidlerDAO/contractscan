@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Contract Scan
 // @name:zh-cn   合约扫描器
-// @version      1.0.2
+// @version      1.0.3
 // @namespace    https://github.com/DAOBuidler/contractscan
 // @homepage     https://github.com/DAOBuidler/contractscan
 // @author       Diven@BuidlerDAO Exqlnet@BuidlerDAO
 // @description  a cool tool help read contract in any main scan
-// @description:zh-cn 一个很酷的合约学习工具，可以帮助合约学习者下载
+// @description:zh-cn 一个很酷的合约学习工具，可以帮助合约学习者在在线编辑器中，分不同的文件查看合约代码，下载打包后的合约文件
 // @match        https://bscscan.com/address/*
 // @match        https://etherscan.io/address/*
 // @match        https://polygonscan.com/address/*
