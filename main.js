@@ -1,16 +1,17 @@
-//==UserScript==
-//@name         contractscan 
-//@name:zh-cn   合约扫描器
-//@namespace    https://www.buidlerdao.xyz
-//@description  a cool tool help read contract in any main scan
-// @match       https://bscscan.com/address/*
-// @match       https://etherscan.io/address/*
-// @match       https://polygonscan.com/address/*
-//@version      0.1
-//@author       BuidlerDAO
-//@include *
-//@grant none
-//==/UserScript==
+// ==UserScript==
+// @name         Contract Scan
+// @name:zh-cn   合约扫描器
+// @version      1.0.0
+// @namespace    https://github.com/DAOBuidler/contractscan
+// @homepage     https://github.com/DAOBuidler/contractscan
+// @author       Diven@BuidlerDAO Exqlnet@BuidlerDAO
+// @description  自动展开文档	一个很酷的合约学习工具，可以帮助合约学习者下载
+// @match        https://bscscan.com/address/*
+// @match        https://etherscan.io/address/*
+// @match        https://polygonscan.com/address/*
+// @grant        none
+// @license      MPL-2.0
+// ==/UserScript==
 
 
 
