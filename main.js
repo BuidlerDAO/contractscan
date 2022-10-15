@@ -60,7 +60,6 @@ const ContractPage = (function () {
                 }
             }
 
-            console.log(codeFileNameList)
             // 判断文件数量
             if (codeFileNameList.length > 0) {
                 for (var i = 0; i < codeFileNameList.length; i++) {
