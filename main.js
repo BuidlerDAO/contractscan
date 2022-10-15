@@ -60,16 +60,19 @@ const ContractPage = (function () {
                 }
             }
 
+            console.log(codeFileNameList)
             // 判断文件数量
             if (codeFileNameList.length > 0) {
                 for (var i = 0; i < codeFileNameList.length; i++) {
                     var code = document.getElementsByClassName('sourceCode1')[i].innerText
-                    uploadDic[codeFileNameList[i]] = code
+                    var fileName = codeFileNameList[i].endsWith('sol') ? codeFileNameList[i] : codeFileNameList[i] + '.sol'
+                    uploadDic[fileName] = code
                 }
             } else {
                 var code = document.getElementsByClassName('sourceCode1')[0].innerText
-                var fileName = contractName + '.sol'
+                var fileName = contractName.endsWith('sol') ? contractName : contractName + '.sol'
                 uploadDic[fileName] = code
+
             }
 
             // 上传到仓库
