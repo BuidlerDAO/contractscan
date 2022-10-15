@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Contract Scan
 // @name:zh-cn   合约扫描器
-// @version      1.0.4
+// @version      1.0.5
 // @namespace    https://github.com/DAOBuidler/contractscan
 // @homepage     https://github.com/DAOBuidler/contractscan
 // @author       Diven@BuidlerDAO Exqlnet@BuidlerDAO
