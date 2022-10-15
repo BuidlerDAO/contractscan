@@ -68,7 +68,8 @@ const ContractPage = (function () {
                 }
             } else {
                 var code = document.getElementsByClassName('sourceCode1')[0].innerText
-                uploadDic[contractName] = code
+                var fileName = contractName + '.sol'
+                uploadDic[fileName] = code
             }
 
             // 上传到仓库
