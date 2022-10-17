@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Contract Scan
 // @name:zh-cn   合约扫描器
-// @version      1.0.5
+// @version      1.0.6
 // @namespace    https://github.com/DAOBuidler/contractscan
 // @homepage     https://github.com/DAOBuidler/contractscan
 // @author       Diven@BuidlerDAO Exqlnet@BuidlerDAO
-// @description  a cool tool help read and download contract file in any main scan
-// @description:zh-cn 一个很酷的合约学习工具，可以帮助合约学习者在在线编辑器中，分不同的文件查看合约代码，下载打包后的合约文件
+// @description  contractscan is an oil monkey script specially designed for contract beginners. It enables users to edit and automatically package and download the contract code online with one click when viewing the contract code on the mainstream public chain.
+// @description:zh-cn contractscan 是一个专为合约初学者打造的油猴脚本，能够让用户在主流公链上查阅合约代码时，一键在线编辑和自动打包代码并下载
 // @match        https://bscscan.com/address/*
 // @match        https://etherscan.io/address/*
 // @match        https://polygonscan.com/address/*
