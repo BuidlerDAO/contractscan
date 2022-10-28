@@ -13,6 +13,12 @@
 // @match        https://*.bscscan.com/address/*
 // @match        https://*.etherscan.io/address/*
 // @match        https://*.polygonscan.com/address/*
+// @match        https://bscscan.com/token/*
+// @match        https://etherscan.io/token/*
+// @match        https://polygonscan.com/token/*
+// @match        https://*.bscscan.com/token/*
+// @match        https://*.etherscan.io/token/*
+// @match        https://*.polygonscan.com/token/*
 // @grant        none
 // @license      MPL-2.0
 // ==/UserScript==
@@ -30,7 +36,7 @@ const ContractPage = (function () {
             if (!contractVerified) return;
 
             // 获取合约地址
-            var hrefUrlData = window.location.href.split('/address/')
+            var hrefUrlData = window.location.href.split('/')[4]
             var contractAddress = hrefUrlData[1].substring(0, 42).toString()
 
 
