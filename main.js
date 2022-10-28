@@ -36,8 +36,8 @@ const ContractPage = (function () {
             if (!contractVerified) return;
 
             // 获取合约地址
-            var hrefUrlData = window.location.href.split('/')[4]
-            var contractAddress = hrefUrlData[1].substring(0, 42).toString()
+            var hrefUrlData = window.location.href.split('/')
+            var contractAddress = hrefUrlData[4].substring(0, 42).toString()
 
 
             var htmlObject = document.createElement('div');
@@ -59,9 +59,11 @@ const ContractPage = (function () {
             // 如果有多个文件名样式，则通过规则过滤出文件名 list
             if (codeFileNameElement.length > 0) {
                 for (var i = 0; i < codeFileNameElement.length; i++) {
-                    findTextSplitBySpace = codeFileNameElement[i].innerText.toString().split(' ')
-                    if (findTextSplitBySpace.length == 6 & findTextSplitBySpace[0] == 'File') {
-                        codeFileNameList.push(findTextSplitBySpace[5])
+                    // 兼容 BSC fileName 冒号前面有空格的问题
+                    var codeFileNameText = codeFileNameElement[i].innerText.toString().replace(' :', ':')
+                    findTextSplitBySpace = codeFileNameText.split(' ')
+                    if (findTextSplitBySpace.length == 5 & findTextSplitBySpace[0] == 'File') {
+                        codeFileNameList.push(findTextSplitBySpace[4])
                     }
                 }
             }
