@@ -23,7 +23,7 @@ contractscan 是一个专为合约初学者打造的油猴脚本，能够让用�
 ## 特别鸣谢
 
 <p>
-  <a target="_blank" href="https://github.com/daobuidler">
+  <a target="_blank" href="https://github.com/buidlerdao">
   <img alt="special sponsor appwrite" src="https://avatars.githubusercontent.com/u/106469371?s=200&v=4" width="45" style="border-radius: 50%;">
   </a>
   <a target="_blank" href="https://github.com/abountmydream">
